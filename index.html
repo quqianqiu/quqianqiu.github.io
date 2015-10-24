@@ -1,37 +1,129 @@
 <!DOCTYPE html>
-<html ng-app="deerResume">
+<html>
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>一份诚恳的简历</title>
-  <link href="image/browser.png" rel="shortcut icon">
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/yue.css">
-  <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="bower/components/bootstrap/dist/css/bootstrap.min.css">
-  <link rel="stylesheet" href="bower/components/ng-notify/dist/ng-notify.min.css">
-  <script src="bower/components/jquery/dist/jquery.min.js"></script>
-  <script src="bower/components/angular/angular.min.js"></script>
-  <script src="bower/components/angular-route/angular-route.min.js"></script>
-  <script src="bower/components/angular-sanitize/angular-sanitize.min.js"></script>
-  <script src="bower/components/showdown/compressed/showdown.js"></script>
-  <script src="bower/components/ng-notify/dist/ng-notify.min.js"></script>
-  <script src="js/wizMarkdown.min.js"></script>
-  <script src="js/jspdf.min.js"></script>
-  <script src="js/jspdf.plugin.addhtml.js"></script>
-  <script src="bower/components/angular-cookies/angular-cookies.min.js"></script>
-  <script src="bower/components/angularLocalStorage/src/angularLocalStorage.js"></script>
-  <script src="js/app.js"></script>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Hello!</title>
+<link rel="stylesheet" href="https://stackedit.io/res-min/themes/base.css" />
+<script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML"></script>
 </head>
-<body>
-  <base target="_blank">
-  <div ng-view id="resume_body"></div>
-  <form action="http://pdf.ftqq.com" method="post" target="_blank" id="hform">
-    <input type="hidden" name="title"/>
-    <input type="hidden" name="subtitle"/>
-    <input type="hidden" name="content"/>
-    <input type="hidden" name="pdfkey"/>
-  </form>  
-</body>
+<body><div class="container"><h1 id="个人信息">个人信息</h1>
 
+<ul>
+<li>钟彦骏 男 1990 </li>
+<li>本科 华南农业大学 市场营销系</li>
+<li>硕士 暨南大学 计算机科学系</li>
+<li>OSC：<a href="https://git.oschina.net/severez">https://git.oschina.net/severez</a></li>
+</ul>
+
+<hr>
+
+
+
+<h1 id="项目举例">项目举例</h1>
+
+
+
+<h2 id="研究生期间-2014年9月-2015年9月">研究生期间 （2014年9月 ~ 2015年9月）</h2>
+
+
+
+<h3 id="华为公司实习">华为公司实习</h3>
+
+<blockquote>
+  <p>2015年7月进入深圳华为无线产品线LTE开发部实习，工作围绕LTE层二协议MAC层上行部分。内容包括处理测试组和一线反馈的问题单，基站软件维护；清理代码静态检测告警；删减冗余代码，保证编译质量；搭建实验室小区环境等。输出若干问题分析报告，软件维测思路心得。实习结束后，主管评定工作绩效优秀，实习答辩优秀</p>
+</blockquote>
+
+
+
+<h3 id="华为软件精英挑战赛">华为软件精英挑战赛</h3>
+
+<blockquote>
+  <p>比赛题目为编写牌手程序，和其他参赛者编写的程序进行德州扑克竞技，以获得的筹码多少判定名次。负责该程序的架构模块设计、扑克策略设计，及其编码工作。程序核心策略是基于Monte Carlo算法得出的胜率，兼考虑不同下注圈、手中筹码、彩池等因素做出相应动作。同时程序实现了对手模型，在不断增加的牌局中记录分析对手数据，对策略做出适当调整</p>
+  
+  <ul>
+  <li>Repo：<a href="https://git.oschina.net/severez/PokerPlayer">https://git.oschina.net/severez/PokerPlayer</a> </li>
+  <li>Branch：top4</li>
+  </ul>
+</blockquote>
+
+
+
+<h3 id="人脸识别和眼球定位">人脸识别和眼球定位</h3>
+
+<blockquote>
+  <p>学习OpenCV API文档，使用Template Matching在Android手机上实现人脸识别，并自定义模板定位眼球。面对陌生的领域，能充分利用网络资源，准确检索信息，快速学习并完成任务</p>
+</blockquote>
+
+
+
+<h3 id="其他项目">其他项目</h3>
+
+<blockquote>
+  <ul>
+  <li>食品溯源平台手机客户端开发，核心功能为二维码、条形码识别和处理</li>
+  <li>脉冲按摩治疗仪手机端开发，利用蓝牙模块控制治疗仪，并实现智能提醒，治疗记录管理等功能</li>
+  <li>省研究生教育平台手机客户端开发，使用HTML+CSS+JS技术，利用第三方跨平台框架编译HybridAPP</li>
+  <li>为学院老师开发工具方便其教学工作等</li>
+  </ul>
+</blockquote>
+
+
+
+<h2 id="工作期间-2012年5月-2013年6月">工作期间 （2012年5月 ~ 2013年6月）</h2>
+
+<p>我在本科毕业后参加过一年的工作。先是就职于期货公司、私募基金，做交易事务。后自学编程，在软件外包公司从事Android客户端开发</p>
+
+
+
+<h3 id="公司项目">公司项目</h3>
+
+<blockquote>
+  <p>参与公司多个Android客户端商业项目开发，包括教育，资讯，社交等应用。部分项目：</p>
+  
+  <ul>
+  <li><a href="http://chezt.gznet.com/app.aspx">车主通</a></li>
+  <li><a href="http://edu.gznet.com/tutor/">读书乐</a></li>
+  <li><a href="http://www.appchina.com/app/com.trigms.centaur.android">商务轻博客</a></li>
+  </ul>
+</blockquote>
+
+
+
+<h3 id="其他项目-1">其他项目</h3>
+
+<blockquote>
+  <p>空余时间因应个人兴趣和需要，开发拼图游戏、MP3播放器、文件分享工具等</p>
+</blockquote>
+
+<hr>
+
+
+
+<h1 id="其他经历">其他经历</h1>
+
+
+
+<h2 id="学习成绩">学习成绩</h2>
+
+<p>以初试、复试均第一的成绩考入暨南大学计算机系。本、硕期间各科成绩优良</p>
+
+
+
+<h2 id="社团活动">社团活动</h2>
+
+<p>创办益智游戏协会、紫荆口琴社两个校级协会，担任益协会长。组织协会日常活动，策划举办WCA(world cube association)级别魔方比赛。最后附送私家录像:）</p>
+
+<ul>
+<li><a href="http://v.youku.com/v_show/id_XMTk1MTk5NjA4.html">魔方速拧</a></li>
+<li><a href="http://v.youku.com/v_show/id_XMjk1ODU5OTQw.html">扫雷高级</a></li>
+</ul>
+
+<hr>
+
+
+
+<h1 id="致谢">致谢</h1>
+
+<p>感谢您阅读我的简历，期待能有机会和您共事</p></div></body>
 </html>
